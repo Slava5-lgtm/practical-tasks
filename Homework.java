@@ -82,7 +82,7 @@ public class Homework {
 
         System.out.println(s2 == s8);
         System.out.println(s2.equals(s8));
-        var Subscriber = new HashSet<Subscriber>(Arrays.asList(s1, s2, s3, s4, s5, s6, s7, s8)); // Создаем колекцию наших Worker
+        var Subscriber = new HashSet<Subscriber>(Arrays.asList(s1, s2, s3, s4, s5, s6, s7, s8));
         System.out.println(Subscriber.contains(s8));
     }
 }
